@@ -8,8 +8,8 @@ import com.loopj.android.http.RequestParams;
 public class AsyncHttp {
 
     private static boolean IS_TESTER = true;
-    private static String DEPLOYMENT_SERVER = "http://172.30.1.17:8080/";
-    private static String DEVELOPMENT_SERVER = "http://172.30.1.17:8080/";
+    private static String DEPLOYMENT_SERVER = "http://localhost:8080/";
+    private static String DEVELOPMENT_SERVER = "http://localhost:8080/";
 
     private static AsyncHttpClient client = getHttpClient();
 
